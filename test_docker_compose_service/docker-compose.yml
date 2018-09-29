@@ -1,0 +1,6 @@
+version: "3"
+services:
+  sit:
+    image: hashicorp/http-echo
+    command: ["-listen=:8081", "-text=OK"]
+  
